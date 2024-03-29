@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  padding: 15px;
+}
+
+.container {
+  margin: 10px;
+  height: 460px;
+  width: 460px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.line {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+.item {
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+}
+.adjuster {
+  display: flex;
+  padding: 20px;
+}
+
+.dimension {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+}
+.color-selector {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+}
+.random-color {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
+}
